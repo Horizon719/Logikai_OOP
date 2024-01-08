@@ -9,6 +9,7 @@ public class Program {
     public Program() {
         this.elso();
         int szam = this.masodik();
+        this.harmadik(szam);
     }
     
     private void elso() {
@@ -30,5 +31,13 @@ public class Program {
         } while (szam < 1 || szam > 3);
         
         return szam;
+    }
+    
+    private void harmadik(int szam){
+        if (szam == 3){
+            System.out.println("A válasz helyes.");
+        } else{
+            System.out.println("A válasz helytelen.");
+        }
     }
 }
