@@ -15,7 +15,8 @@ public class LogikaiOOP {
         System.out.println(a1);
         System.out.println(a2);
         System.out.println(a3);
-        System.out.println("Melyik:");
+        System.out.print("Melyik: ");
+        int szam = SC.nextInt();
         System.out.println("A válasz: jó | rossz");
         
     }
