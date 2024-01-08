@@ -1,8 +1,11 @@
 
 package logikaioop;
 
-public class LogikaiOOP {
+import java.util.Scanner;
 
+public class LogikaiOOP {
+    private static final Scanner SC = new Scanner(System.in);
+    
     public static void main(String[] args) {
         
         System.out.println("Leírás");
