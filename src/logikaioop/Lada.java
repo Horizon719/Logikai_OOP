@@ -4,15 +4,11 @@ package logikaioop;
 public class Lada {
     private String allitas, anyag;
     private boolean kincs;
-    
+
     public Lada(String allitas, String anyag, boolean kincs) {
         this.allitas = allitas;
         this.anyag = anyag;
         this.kincs = kincs;
-    }
-    
-    public void kstr() {
-        
     }
 
     public String getAllitas() {
@@ -43,6 +39,6 @@ public class Lada {
     public String toString() {
         return "Lada{" + "allitas=" + allitas + ", anyag=" + anyag + ", kincs=" + kincs + '}';
     }
-    
+
     
 }
