@@ -4,17 +4,17 @@ package logikaioop;
 public class LogikaiOOP {
 
     public static void main(String[] args) {
-        Allitas a1 = new Allitas("Az 1. állítás!");
-        Allitas a2 = new Allitas("A 2. állítás!");
-        Allitas a3 = new Allitas("A 3. állítás!");
+        Lada a1 = new Lada("Az 1. állítás!", "fa", true);
+        Lada a2 = new Lada("A 2. állítás!", "fém", false);
+        Lada a3 = new Lada("A 3. állítás!", "fa", false);
         
         System.out.println("Leírás");
         System.out.println(a1);
         System.out.println(a2);
         System.out.println(a3);
         System.out.println("Melyik:");
-        System.out.println("A válasz: jó | rossz");
-        
+        System.out.println("A válasz: jó | rossz"); 
+       
     }
     
 }
