@@ -13,9 +13,9 @@ public class Program {
     }
     
     private void elso() {
-        Lada a1 = new Lada("Az 1. állítás!", "fa", true);
-        Lada a2 = new Lada("A 2. állítás!", "kő", false);
-        Lada a3 = new Lada("A 3. állítás!", "gyémánt", true);
+        Lada a1 = new Lada("Én rejtem a kincset!", "arany", false); // h
+        Lada a2 = new Lada("Nem én rejtem a kincset!", "ezüst", true); //h kincs
+        Lada a3 = new Lada("Az arany hazudik!", "bronz", false); //i
         
         System.out.println("Leírás");
         System.out.println(a1);
@@ -25,8 +25,8 @@ public class Program {
     
     private int masodik() {
         int szam;
-        System.out.print("Melyik: ");
         do {
+            System.out.print("Melyik: ");
             szam = SC.nextInt();
         } while (szam < 1 || szam > 3);
         
@@ -34,7 +34,7 @@ public class Program {
     }
     
     private void harmadik(int szam){
-        if (szam == 3){
+        if (szam == 2){
             System.out.println("A válasz helyes.");
         } else{
             System.out.println("A válasz helytelen.");

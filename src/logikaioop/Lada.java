@@ -37,7 +37,7 @@ public class Lada {
 
     @Override
     public String toString() {
-        return "Lada{" + "allitas=" + allitas + ", anyag=" + anyag + ", kincs=" + kincs + '}';
+        return "%sláda: %s".formatted(this.anyag, this.allitas);
     }
 
     
