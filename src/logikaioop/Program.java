@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Program {
     private static final Scanner SC = new Scanner(System.in);
+    private Lada[] ladak;
     
     public Program() {
         this.elso();
@@ -13,14 +14,14 @@ public class Program {
     }
     
     private void elso() {
-        Lada a1 = new Lada("Én rejtem a kincset!", "arany", false); // h
-        Lada a2 = new Lada("Nem én rejtem a kincset!", "ezüst", true); //h kincs
-        Lada a3 = new Lada("Az arany hazudik!", "bronz", false); //i
+        this.ladak = new Lada[]{new Lada("Én rejtem a kincset!", "arany", false), // h
+                        new Lada("Nem én rejtem a kincset!", "ezüst", true), //h kincs
+                        new Lada("Az arany hazudik!", "bronz", false)}; //i
         
         System.out.println("Leírás");
-        System.out.println(a1);
-        System.out.println(a2);
-        System.out.println(a3);
+        for (Lada lada : ladak) {
+            System.out.println(lada);
+        }
     }
     
     private int masodik() {
@@ -34,7 +35,7 @@ public class Program {
     }
     
     private void harmadik(int szam){
-        if (szam == 2){
+        if (this.ladak[szam - 1].isKincs()){
             System.out.println("A válasz helyes.");
         } else{
             System.out.println("A válasz helytelen.");
