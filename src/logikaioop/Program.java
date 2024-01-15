@@ -1,6 +1,7 @@
 
 package logikaioop;
 
+import logikaioop.model.Lada;
 import java.util.Scanner;
 
 public class Program {

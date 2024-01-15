@@ -1,5 +1,5 @@
 
-package logikaioop;
+package logikaioop.model;
 
 public class Lada {
     private String allitas, anyag;
