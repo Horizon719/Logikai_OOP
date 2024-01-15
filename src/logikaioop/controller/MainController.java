@@ -2,6 +2,7 @@
 package logikaioop.controller;
 
 import logikaioop.model.Lada;
+import logikaioop.view.ConsoleView;
 
 public class MainController {
     private Lada[] ladak;

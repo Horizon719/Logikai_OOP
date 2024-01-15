@@ -15,7 +15,7 @@ public class ConsoleView {
         }
     }
     
-    public int szamBekerTartomannyal(String szoveg, int min, int max){
+    public int szamBekerTartomanyban(String szoveg, int min, int max){
         int szam;
         do {
             System.out.print(szoveg);
